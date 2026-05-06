@@ -37380,70 +37380,58 @@ function Footer() {
 }
 const galleryItems = [
   {
-    src: "/assets/images/hero-portrait.png",
-    alt: "Bride in purple lehenga",
+    src: "/assets/images/photo1.png",
+    alt: "Bridal makeup look",
     category: "Bridal",
-    caption: "Regal Bridal Look — Purple Lehenga"
+    caption: "Radiant Bridal Transformation"
   },
   {
-    src: "/assets/images/bride-red.png",
-    alt: "Bride in red lehenga",
+    src: "/assets/images/photo2.png",
+    alt: "Bride in elegant attire",
     category: "Bridal",
-    caption: "Classic Red Bridal Transformation"
+    caption: "Classic Bride — Timeless Elegance"
   },
   {
-    src: "/assets/images/bride-orange.png",
-    alt: "Bride in orange lehenga",
+    src: "/assets/images/photo3.png",
+    alt: "Bridal look with jewelry",
     category: "Bridal",
-    caption: "Vibrant Orange Festive Bridal"
+    caption: "Jewelled Bridal Artistry"
   },
   {
-    src: "/assets/images/bride-purple-jewelry.png",
-    alt: "Bride with blue jewelry",
+    src: "/assets/images/photo4.png",
+    alt: "Bridal makeup closeup",
     category: "Bridal",
-    caption: "Engagement Look with Statement Jewelry"
+    caption: "HD Bridal Glow — Flawless Finish"
   },
   {
-    src: "/assets/images/bride-candid.png",
-    alt: "Bridal candid shot",
+    src: "/assets/images/photo5.png",
+    alt: "Festive makeup look",
     category: "Bridal",
-    caption: "Candid Bridal Elegance"
+    caption: "Festive Bridal Makeover"
   },
   {
-    src: "/assets/images/bride-night.png",
-    alt: "Night bridal shot",
-    category: "Bridal",
-    caption: "Night Ceremony Bridal Glow"
-  },
-  {
-    src: "/assets/images/glamour-blue-saree.png",
-    alt: "Woman in blue saree",
+    src: "/assets/images/photo6.png",
+    alt: "Party makeup look",
     category: "Glamour",
-    caption: "Elegant Blue Saree Styling"
+    caption: "Cocktail Party Glam"
   },
   {
-    src: "/assets/images/sfx-clay.png",
-    alt: "SFX prosthetic makeup",
-    category: "SFX",
-    caption: "Professional Prosthetic SFX"
+    src: "/assets/images/photo7.png",
+    alt: "Bridal reception look",
+    category: "Glamour",
+    caption: "Reception Night Look"
   },
   {
-    src: "/assets/images/sfx-arm.png",
-    alt: "SFX arm wound makeup",
-    category: "SFX",
-    caption: "Realistic Wound SFX Artistry"
-  },
-  {
-    src: "/assets/images/team-sfx.png",
-    alt: "Team with SFX creature",
-    category: "SFX",
-    caption: "Full Team SFX Monster Creation"
-  },
-  {
-    src: "/assets/images/makeup-tools.png",
-    alt: "Makeup tools workspace",
+    src: "/assets/images/photo8.png",
+    alt: "Professional makeup shoot",
     category: "BTS",
-    caption: "Behind The Scenes — Studio Setup"
+    caption: "Behind The Scenes — Studio Magic"
+  },
+  {
+    src: "/assets/images/photo9.png",
+    alt: "Engagement makeup look",
+    category: "Bridal",
+    caption: "Engagement Ceremony Look"
   }
 ];
 const categories = ["All", "Bridal", "Glamour", "SFX", "BTS"];
@@ -89600,7 +89588,7 @@ function HeroSection() {
                               /* @__PURE__ */ jsxRuntimeExports.jsx(
                                 "img",
                                 {
-                                  src: "/assets/images/hero-portrait.png",
+                                  src: "/assets/images/photo1.png",
                                   alt: "Khushi Kumawat - Bridal Makeup Artist",
                                   className: "w-full h-full object-cover",
                                   "data-ocid": "hero.portrait"
@@ -90138,7 +90126,7 @@ const services = [
     title: "Bridal Makeup",
     description: "Exquisite bridal transformations crafted with HD techniques, luxurious products and timeless artistry for your most special day.",
     price: "₹8,000 – ₹25,000",
-    image: "/assets/images/bride-red.png",
+    image: "/assets/images/photo2.png",
     tag: "Most Popular",
     icon: "💍"
   },
@@ -90146,7 +90134,7 @@ const services = [
     title: "Party & Reception Makeup",
     description: "Glamorous looks for receptions, sangeet, cocktail parties and all festive occasions that demand you shine the brightest.",
     price: "₹3,500 – ₹10,000",
-    image: "/assets/images/bride-orange.png",
+    image: "/assets/images/photo3.png",
     tag: "Trending",
     icon: "✨"
   },
@@ -90154,7 +90142,7 @@ const services = [
     title: "Hairstyling & Braiding",
     description: "From intricate bridal juda to modern waves, mehendi braids to celebrity blowouts — every strand perfectly styled.",
     price: "₹2,000 – ₹8,000",
-    image: "/assets/images/glamour-blue-saree.png",
+    image: "/assets/images/photo5.png",
     tag: "Signature",
     icon: "💇"
   },
@@ -90162,7 +90150,7 @@ const services = [
     title: "Special Effects Makeup",
     description: "Professional SFX artistry for films, TV shoots, theatrical productions and special events. Prosthetics to creature FX.",
     price: "₹5,000 – ₹20,000",
-    image: "/assets/images/sfx-clay.png",
+    image: "/assets/images/photo6.png",
     tag: "Pro Level",
     icon: "🎨"
   },
@@ -90170,7 +90158,7 @@ const services = [
     title: "Engagement & Pre-Wedding",
     description: "Stunning looks for roka ceremonies, haldi, mehndi functions and all pre-wedding celebrations.",
     price: "₹4,000 – ₹12,000",
-    image: "/assets/images/bride-purple-jewelry.png",
+    image: "/assets/images/photo4.png",
     tag: "Exclusive",
     icon: "👑"
   },
@@ -90178,7 +90166,7 @@ const services = [
     title: "Airbrush Makeup",
     description: "Flawless camera-ready airbrush finish that lasts 12+ hours. Perfect for destination weddings and summer brides.",
     price: "₹6,000 – ₹18,000",
-    image: "/assets/images/bride-candid.png",
+    image: "/assets/images/photo7.png",
     tag: "HD Finish",
     icon: "🎥"
   }
@@ -90671,7 +90659,7 @@ function WhyChooseUs() {
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
                       "img",
                       {
-                        src: "/assets/images/makeup-tools.png",
+                        src: "/assets/images/photo8.png",
                         alt: "Professional Makeup Workspace",
                         className: "w-full h-full object-cover"
                       }

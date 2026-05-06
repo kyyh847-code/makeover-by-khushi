@@ -133,15 +133,15 @@ export default function Footer() {
             © {year} Makeover By Khushi Kumawat. All rights reserved.
           </p>
           <p className="font-body text-xs" style={{ color: "#6B5040" }}>
-            {" "}
+            Built with love using{" "}
             <a
-              href={"https://wa.me/917409768581"}
+              href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
               target="_blank"
               rel="noreferrer"
               className="transition-smooth hover:text-[#C9A96E]"
               style={{ color: "#8B7050" }}
             >
-              Designed By Kavya Chaudhary
+              caffeine.ai
             </a>
           </p>
         </div>

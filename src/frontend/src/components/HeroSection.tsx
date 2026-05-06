@@ -208,7 +208,7 @@ export default function HeroSection() {
               }}
             >
               <img
-                src="/assets/images/hero-portrait.png"
+                src="/assets/images/photo1.png"
                 alt="Khushi Kumawat - Bridal Makeup Artist"
                 className="w-full h-full object-cover"
                 data-ocid="hero.portrait"

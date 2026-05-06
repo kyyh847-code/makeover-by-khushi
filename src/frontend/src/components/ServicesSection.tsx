@@ -16,7 +16,7 @@ const services: Service[] = [
     description:
       "Exquisite bridal transformations crafted with HD techniques, luxurious products and timeless artistry for your most special day.",
     price: "₹8,000 – ₹25,000",
-    image: "/assets/images/bride-red.png",
+    image: "/assets/images/photo2.png",
     tag: "Most Popular",
     icon: "💍",
   },
@@ -25,7 +25,7 @@ const services: Service[] = [
     description:
       "Glamorous looks for receptions, sangeet, cocktail parties and all festive occasions that demand you shine the brightest.",
     price: "₹3,500 – ₹10,000",
-    image: "/assets/images/bride-orange.png",
+    image: "/assets/images/photo3.png",
     tag: "Trending",
     icon: "✨",
   },
@@ -34,7 +34,7 @@ const services: Service[] = [
     description:
       "From intricate bridal juda to modern waves, mehendi braids to celebrity blowouts — every strand perfectly styled.",
     price: "₹2,000 – ₹8,000",
-    image: "/assets/images/glamour-blue-saree.png",
+    image: "/assets/images/photo5.png",
     tag: "Signature",
     icon: "💇",
   },
@@ -43,7 +43,7 @@ const services: Service[] = [
     description:
       "Professional SFX artistry for films, TV shoots, theatrical productions and special events. Prosthetics to creature FX.",
     price: "₹5,000 – ₹20,000",
-    image: "/assets/images/sfx-clay.png",
+    image: "/assets/images/photo6.png",
     tag: "Pro Level",
     icon: "🎨",
   },
@@ -52,7 +52,7 @@ const services: Service[] = [
     description:
       "Stunning looks for roka ceremonies, haldi, mehndi functions and all pre-wedding celebrations.",
     price: "₹4,000 – ₹12,000",
-    image: "/assets/images/bride-purple-jewelry.png",
+    image: "/assets/images/photo4.png",
     tag: "Exclusive",
     icon: "👑",
   },
@@ -61,7 +61,7 @@ const services: Service[] = [
     description:
       "Flawless camera-ready airbrush finish that lasts 12+ hours. Perfect for destination weddings and summer brides.",
     price: "₹6,000 – ₹18,000",
-    image: "/assets/images/bride-candid.png",
+    image: "/assets/images/photo7.png",
     tag: "HD Finish",
     icon: "🎥",
   },

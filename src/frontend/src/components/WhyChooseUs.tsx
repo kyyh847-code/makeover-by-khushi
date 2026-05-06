@@ -270,7 +270,7 @@ export default function WhyChooseUs() {
             </div>
             <div className="relative h-80 lg:h-auto overflow-hidden">
               <img
-                src="/assets/images/makeup-tools.png"
+                src="/assets/images/photo8.png"
                 alt="Professional Makeup Workspace"
                 className="w-full h-full object-cover"
               />
