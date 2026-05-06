@@ -1,0 +1,26 @@
+type Appointment = 
+ record {
+   createdAt: int;
+   date: text;
+   email: text;
+   id: nat;
+   message: text;
+   name: text;
+   phone: text;
+   "service": text;
+   status: text;
+   time: text;
+ };
+service : {
+  /// Book a new appointment. Returns the new appointment ID, or 0 on validation failure.
+  bookAppointment: (name: text, phone: text, email: text, "service": 
+   text, date: text, time: text, message: text) -> (nat);
+  /// Cancel an appointment by ID. Returns true on success.
+  cancelAppointment: (id: nat) -> (bool);
+  /// Return a single appointment by ID, or null if not found.
+  getAppointmentById: (id: nat) -> (opt Appointment) query;
+  /// Return all appointments (admin use).
+  getAppointments: () -> (vec Appointment) query;
+  /// Update the status of an appointment. Returns true on success.
+  updateAppointmentStatus: (id: nat, status: text) -> (bool);
+}

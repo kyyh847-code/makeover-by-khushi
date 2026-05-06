@@ -1,0 +1,27 @@
+// Version: 1.0.0
+type Appointment__384223623 =
+  {
+    createdAt : Int;
+    date : Text;
+    email : Text;
+    id : Nat;
+    message : Text;
+    name : Text;
+    phone : Text;
+    service : Text;
+    status : Text;
+    time : Text
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable appointments :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Appointment__384223623]];
+      var elementIndex : Nat__490723111
+    };
+  stable var nextId : Nat;
+  stable validServices : [Text];
+  stable validTimes : [Text]
+};
