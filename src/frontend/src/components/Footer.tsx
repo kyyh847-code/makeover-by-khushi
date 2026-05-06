@@ -133,7 +133,7 @@ export default function Footer() {
             © {year} Makeover By Khushi Kumawat. All rights reserved.
           </p>
           <p className="font-body text-xs" style={{ color: "#6B5040" }}>
-            Built with love using{" "}
+            {" "}
             <a
               href={"https://wa.me/917409768581"}
               target="_blank"
